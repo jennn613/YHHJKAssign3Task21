@@ -17,7 +17,7 @@ using System.Threading.Tasks;
  * 
  -	Data-Entry: Where the user will input population A, population B, growth-rate A, growth-rate B
 -	Decisions (if-then-else): Where population A and B will be compared (pop A< pop B)
-                              Where growth-rates A and will be compared (growth-rate A > growth-rate B)
+    Where growth-rates A and will be compared (growth-rate A > growth-rate B)
 -	Method: Where the years calculation will happen
 o	Iteration:  while (pop A< pop B)  ...
 -	Output of your application as described below.
@@ -53,10 +53,13 @@ namespace task2
             {
                 int increaseA = (int)(popA * rateA);
                 popA = popA + increaseA;
-
+                return popA;
+            }
+            while (popA < popB)
+            {
                 int increaseB = (int)(popB * rateB);
                 popB = popB + increaseB;
-                return popA;
+                return popB;
             }
         }
 
