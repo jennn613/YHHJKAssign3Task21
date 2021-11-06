@@ -5,3 +5,10 @@ C:\Users\jennn\OneDrive\바탕 화면\task1\task1\obj\Debug\task1.csproj.Assembl
 C:\Users\jennn\OneDrive\바탕 화면\task1\task1\obj\Debug\task1.csproj.CoreCompileInputs.cache
 C:\Users\jennn\OneDrive\바탕 화면\task1\task1\obj\Debug\task1.exe
 C:\Users\jennn\OneDrive\바탕 화면\task1\task1\obj\Debug\task1.pdb
+C:\Users\jennn\OneDrive\바탕 화면\YHHJKAssign3Task21\task1\task1\obj\Debug\task1.csproj.AssemblyReference.cache
+C:\Users\jennn\OneDrive\바탕 화면\YHHJKAssign3Task21\task1\task1\obj\Debug\task1.csproj.CoreCompileInputs.cache
+C:\Users\jennn\OneDrive\바탕 화면\YHHJKAssign3Task21\task1\task1\obj\Debug\task1.exe
+C:\Users\jennn\OneDrive\바탕 화면\YHHJKAssign3Task21\task1\task1\obj\Debug\task1.pdb
+C:\Users\jennn\OneDrive\바탕 화면\YHHJKAssign3Task21\task1\task1\bin\Debug\task1.exe.config
+C:\Users\jennn\OneDrive\바탕 화면\YHHJKAssign3Task21\task1\task1\bin\Debug\task1.exe
+C:\Users\jennn\OneDrive\바탕 화면\YHHJKAssign3Task21\task1\task1\bin\Debug\task1.pdb
