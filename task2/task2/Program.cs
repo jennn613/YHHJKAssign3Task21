@@ -106,22 +106,24 @@ namespace task2
             
         }
 
-         static int YearsForecast (int popA, int popB, float rateA, float rateB)
-          {
-
-            int increaseA = popA * Convert.ToInt32(rateA);
-            int increaseB = popB * Convert.ToInt32(rateB); // I want you to change the names of variables bc I don't think mines are good. maybe also commits too! Thanks ><
+        static int YearsForecast(int popA, int popB, float rateA, float rateB)
+        {
+            float increaseA = popA * rateA;
+            float increaseB = popB * rateB;
             int year = 0;
 
-           // calculate the number of years it takes for the population A to exceed or equal the population of country B, maintaining the growth rates.
-              while (popA < popB)
-              {
+
+            // calculate the number of years it takes for the population A to exceed or equal the population of country B, maintaining the growth rates.
+            while (popA < popB)
+            {
                 year++;
 
-                popA = (year * increaseA) + popA;
-                popB = (year * increaseB)+ popB;
-              }
-            return year; // I think we need to return the year to let users know how long does it take. And I can't get the meaning of maintaing the growth rates. I can't figure out what cna we do with them.
+                popA = Convert.ToInt32((year * increaseA) + popA);
+                popB = Convert.ToInt32((year * increaseB) + popB);
+
+                // I think we need to return the year to let users know how long does it take. And I can't get the meaning of maintaing the growth rates. I can't figure out what cna we do with them.
+            }
+            return year;
         }
-}
+    }
 }
