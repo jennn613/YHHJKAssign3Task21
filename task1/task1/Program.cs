@@ -8,7 +8,7 @@
  * Purpose: To make a program for counting votes
  * 
  * Revision History:
- *      created Nov 5, 2021 by usuf Hafeji and Hyunjin KimY
+ *      created Nov 5, 2021 by Yusuf Hafeji and Hyunjin Kim
  *      
  */
 
@@ -25,7 +25,6 @@ namespace task1
     {
         static void Main(string[] args)
         {
-
             //initialize variables
 
             int voters = 0; // the number of voters
@@ -36,7 +35,6 @@ namespace task1
             bool keepGoing = true; 
 
             /* ------------------------------------------------------------------ */
-
 
             //get the number of voters from user
             do
@@ -58,9 +56,7 @@ namespace task1
 
             } while (keepGoing);
 
-
             /* --------------------------------------------------------------------- */
-
 
             //Ask users what candidate that they want to vote
 
@@ -115,7 +111,6 @@ namespace task1
 
             }
 
-
             /* --------------------------------------------------------------------- */
 
             // Show people results
@@ -124,9 +119,6 @@ namespace task1
             Console.WriteLine("Candidate Bill: " + billVotedNum + " votes.");
             Console.WriteLine("Candidate Claire: " + claireVotedNum + " votes.");
 
-        }
-
-
-          
+        }   
     }
 }

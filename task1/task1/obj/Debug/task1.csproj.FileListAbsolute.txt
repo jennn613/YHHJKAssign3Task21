@@ -12,3 +12,10 @@ C:\Users\jennn\OneDrive\바탕 화면\YHHJKAssign3Task21\task1\task1\obj\Debug\t
 C:\Users\jennn\OneDrive\바탕 화면\YHHJKAssign3Task21\task1\task1\bin\Debug\task1.exe.config
 C:\Users\jennn\OneDrive\바탕 화면\YHHJKAssign3Task21\task1\task1\bin\Debug\task1.exe
 C:\Users\jennn\OneDrive\바탕 화면\YHHJKAssign3Task21\task1\task1\bin\Debug\task1.pdb
+C:\Users\Yusuf\Documents\GitHub\YHHJKAssign3Task21\task1\task1\bin\Debug\task1.exe.config
+C:\Users\Yusuf\Documents\GitHub\YHHJKAssign3Task21\task1\task1\bin\Debug\task1.exe
+C:\Users\Yusuf\Documents\GitHub\YHHJKAssign3Task21\task1\task1\bin\Debug\task1.pdb
+C:\Users\Yusuf\Documents\GitHub\YHHJKAssign3Task21\task1\task1\obj\Debug\task1.csproj.AssemblyReference.cache
+C:\Users\Yusuf\Documents\GitHub\YHHJKAssign3Task21\task1\task1\obj\Debug\task1.csproj.CoreCompileInputs.cache
+C:\Users\Yusuf\Documents\GitHub\YHHJKAssign3Task21\task1\task1\obj\Debug\task1.exe
+C:\Users\Yusuf\Documents\GitHub\YHHJKAssign3Task21\task1\task1\obj\Debug\task1.pdb
