@@ -24,15 +24,14 @@ namespace YHHJKAssign3Task2S1
     {
         static void Main(string[] args)
         {
-
-            // initialize variables 
-
+            // Initialize variables 
             int populationA = 0;
             int populationB = 0;
             float growthA = 0;
             float growthB = 0;
             bool key = true;
 
+            // Try catch statements in do while loops to get user input
             do
             {
                 try
@@ -100,7 +99,7 @@ namespace YHHJKAssign3Task2S1
             if (populationA < populationB && growthA > growthB)
             {
                 int years = YearsForecast(populationA, populationB, growthA, growthB);
-                Console.WriteLine("Maintaining the growth rates, popullation A will be equal to or bigger than population B in " + years + " years."); // just to test if it works
+                Console.WriteLine("Maintaining the growth rates, popullation A will be equal to or bigger than population B in " + years + " years."); 
 
             }
             else
@@ -109,22 +108,18 @@ namespace YHHJKAssign3Task2S1
             }
         }
 
-        static int YearsForecast(int popA, int popB, float rateA, float rateB)
+        static int YearsForecast(int popA, int popB, float rateA, float rateB)  // Method that calculates the growth rate for the populations
         {
             float increaseA = popA * rateA;
             float increaseB = popB * rateB;
             int year = 0;
 
-
-            // calculate the number of years it takes for the population A to exceed or equal the population of country B, maintaining the growth rates.
             while (popA < popB)
             {
                 year++;
 
                 popA = Convert.ToInt32((year * increaseA) + popA);
                 popB = Convert.ToInt32((year * increaseB) + popB);
-
-                // I think we need to return the year to let users know how long does it take. And I can't get the meaning of maintaing the growth rates. I can't figure out what can we do with them.
             }
             return year;
         }
