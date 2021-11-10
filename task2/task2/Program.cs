@@ -50,8 +50,8 @@ namespace task2
 
             if (populationA < populationB && growthA > growthB)
             {
-                YearsForecast(populationA, populationB, growthA, growthB);
-                Console.WriteLine(YearsForecast(populationA, populationB, growthA, growthB)); // just to test if it works
+                int years = YearsForecast(populationA, populationB, growthA, growthB);
+                Console.WriteLine("Maintaining the growth rates, popullation A will be equal to or bigger than population B in " + years + " years."); // just to test if it works
 
             }
             else if (populationA > populationB)
