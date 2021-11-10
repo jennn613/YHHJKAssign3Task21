@@ -96,7 +96,7 @@ namespace YHHJKAssign3Task2S1
                 }
             } while (key);
 
-            if (populationA < populationB && growthA > growthB)
+            if (populationA < populationB && growthA > growthB) // If statement that checks if the population and growth rates are the right amount, if it's not then an exception will be thrown
             {
                 int years = YearsForecast(populationA, populationB, growthA, growthB);
                 Console.WriteLine("Maintaining the growth rates, popullation A will be equal to or bigger than population B in " + years + " years."); 
@@ -104,7 +104,7 @@ namespace YHHJKAssign3Task2S1
             }
             else
             {
-                throw new Exception("Population a must be smaller than population B, and growth rate of A must be larger than growth rate of B. Please restart the programa nd try again.");
+                throw new Exception("Population a must be smaller than population B, and growth rate of A must be larger than growth rate of B. Please restart the program and try again.");
             }
         }
 
@@ -114,7 +114,7 @@ namespace YHHJKAssign3Task2S1
             float increaseB = popB * rateB;
             int year = 0;
 
-            while (popA < popB)
+            while (popA < popB) // While loop that finds the number of years that it will take population A to exceed population B
             {
                 year++;
 
